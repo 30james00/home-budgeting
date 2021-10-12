@@ -1,0 +1,26 @@
+$light: #237A57;
+$dark: #093028;
+
+@mixin no-space {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin col {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@mixin multi-margin {
+  margin-left: -1rem;
+
+  & > div {
+    margin-left: 1rem;
+  }
+}

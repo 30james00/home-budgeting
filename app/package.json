@@ -1,0 +1,52 @@
+{
+    "devDependencies": {
+        "@symfony/stimulus-bridge": "^2.0.0",
+        "@symfony/webpack-encore": "^1.0.0",
+        "@typescript-eslint/eslint-plugin": "^4.28.3",
+        "@typescript-eslint/parser": "^4.28.3",
+        "@vue/compiler-sfc": "^3.1.5",
+        "@vue/eslint-config-typescript": "^7.0.0",
+        "autoprefixer": "^10.3.1",
+        "axios": "^0.21.1",
+        "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.2.2",
+        "core-js": "^3.0.0",
+        "eslint": "^7.31.0",
+        "eslint-plugin-vue": "^7.14.0",
+        "postcss": "^8.3.6",
+        "regenerator-runtime": "^0.13.2",
+        "sass": "^1.35.2",
+        "sass-loader": "^12.0.0",
+        "stimulus": "^2.0.0",
+        "ts-loader": "^9.2.3",
+        "typescript": "^4.3.5",
+        "vue": "^3.0.2",
+        "vue-loader": "^16.1.0",
+        "webpack-notifier": "^1.6.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/vue-fontawesome": "^3.0.0-4",
+        "babel-plugin-transform-builtin-extend": "^1.1.2",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "chart.js": "^3.5.0",
+        "lodash": "^4.17.21",
+        "vee-validate": "4",
+        "vue-chart-3": "^0.4.10",
+        "vue-router": "4",
+        "vue-toastification": "^2.0.0-rc.1",
+        "vuex": "^4.0.2",
+        "vuex-map-fields": "^1.4.1",
+        "yup": "^0.32.9"
+    }
+}

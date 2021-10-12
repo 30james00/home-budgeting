@@ -1,0 +1,4 @@
+App\Entity\Currency:
+  currency_{1..10}:
+    name: <word()>
+    acronym: <currencyCode()>
